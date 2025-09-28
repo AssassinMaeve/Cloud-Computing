@@ -1,3 +1,5 @@
+// Write a Java RMI program to accept an integer and check whether it is a Prime   
+
 import java.rmi.registry.*;
 import java.rmi.*;
 import java.util.Scanner;
