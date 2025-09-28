@@ -3,7 +3,6 @@
 import java.rmi.registry.*;
 import java.rmi.*;
 import java.util.Scanner;
-import Program1.PrimeCheckInterface;
 public class PrimeCheckClient {
     public static void main(String[] args) {
         try{
