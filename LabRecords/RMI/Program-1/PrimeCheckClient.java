@@ -1,7 +1,6 @@
 // Write a Java RMI program to accept an integer and check whether it is a Prime   
 
 import java.rmi.registry.*;
-import java.rmi.*;
 import java.util.Scanner;
 public class PrimeCheckClient {
     public static void main(String[] args) {
@@ -18,9 +17,10 @@ public class PrimeCheckClient {
             } else {
                 System.out.println(number + " is not a prime number.");
             }
-
+            scanner.close();
         }catch(Exception e){
             System.out.println("Unexpected error: "+e);
          }
+         
     }
 }
