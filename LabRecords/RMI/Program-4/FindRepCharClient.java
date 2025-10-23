@@ -1,6 +1,5 @@
 import java.rmi.registry.LocateRegistry; 
 import java.rmi.registry.Registry;
-import java.rmi.*; 
 import java.util.Scanner; 
 
 public class FindRepCharClient{
@@ -17,6 +16,8 @@ public class FindRepCharClient{
 				System.out.println("\nThe given string does not have repeated characters....."); 
 		}
 		catch (Exception e){
-			System.out.println(e.getMessage());}
+			System.out.println(e.getMessage());
+			sc.close();
+		}
 	}
 }
