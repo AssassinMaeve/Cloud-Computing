@@ -11,7 +11,7 @@ public class FindRepCharClient{
 			System.out.println("Client is accessing...");
 			String st = args[0]; 
 			if(temp.findRepChar(st))
-				System.out.println("\nThe given string have repeatedcharacters.....");
+				System.out.println("\nThe given string have repeated characters.....");
 			else
 				System.out.println("\nThe given string does not have repeated characters....."); 
 		}

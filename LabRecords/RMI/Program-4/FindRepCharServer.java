@@ -1,6 +1,5 @@
 import java.rmi.registry.LocateRegistry; 
 import java.rmi.registry.Registry; 
-import java.rmi.*;
 
 public class FindRepCharServer{ 
 	public static void main(String args[]){
