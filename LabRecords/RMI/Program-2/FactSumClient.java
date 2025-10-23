@@ -1,6 +1,5 @@
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
-import java.rmi.*;
 import java.util.Scanner;
 public class FactSumClient
 {	public static void main(String args[])
@@ -17,6 +16,8 @@ public class FactSumClient
 			System.out.println("The sum of the factorials of each digit in an integer   "+num+" is: "+temp.sumFact(num));
 		}
 		catch(Exception e){
-			System.out.println(e.getMessage());}
+			System.out.println(e.getMessage());
+			sc.close();
+		}
 	}
 }
