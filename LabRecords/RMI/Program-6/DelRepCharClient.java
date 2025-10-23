@@ -1,6 +1,5 @@
 import java.rmi.registry.LocateRegistry; 
 import java.rmi.registry.Registry;
-import java.rmi.*; 
 import java.util.Scanner; 
 
 public class DelRepCharClient{
@@ -22,6 +21,8 @@ public class DelRepCharClient{
             }
 		}
 		catch (Exception e){
-			System.out.println(e.getMessage());}
+			System.out.println(e.getMessage());
+			sc.close();
+		}
 	}
 }
