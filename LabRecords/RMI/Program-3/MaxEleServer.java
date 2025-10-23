@@ -1,7 +1,7 @@
 
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
-import java.rmi.*;
+
 
 public class MaxEleServer {
     public static void main(String[] args) {
